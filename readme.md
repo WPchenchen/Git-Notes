@@ -189,6 +189,7 @@ commit提交后增加分支，可进行分支合并等
 
 ## 分支branch （切换分支）
 
+```
 #创建分支
 
 git branch 0.2
@@ -207,8 +208,12 @@ git checkout master
 
 git merge 0.2 
 
-# 修改remote
+# 修改re
+```
 
+# mote
+
+```
 方式1、直接修改：
 
 git remote set-url origin xxxxx.git
@@ -218,11 +223,14 @@ git remote set-url origin xxxxx.git
 git remote rm origin
 git remote add origin xxxxx.git
 
-# git创建github创建初始化
+# git创建github
+```
 
+# 创建初始化
+
+```
 git init 
-
-​                   #如果有大于100M的文件，要先执行lfs 在下面
+#如果有大于100M的文件，要先执行lfs 在下面
 
 git add .
 
@@ -241,9 +249,13 @@ git push -u origin <main分支名> 上传必须要commit一下
 #拉取分支
 
 git pull -u origin <分支>  再从新建分支，保证当前是最新的
+```
+
+
 
 ## #参与别人的开源项目
 
+```
 github中拉取仓库，添加分支
 
 git clone  <http>   .    #克隆仓库代码
@@ -253,6 +265,9 @@ git remote -v  查看仓库连接
 git remote add upstream <htpp>别人的代码库
 
 git checkout -b <分支名> 切换分支
+
+
+```
 
 
 
